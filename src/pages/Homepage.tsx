@@ -4,6 +4,11 @@ import cart1 from "/assets/cart1.png";
 import home from "/assets/home.png";
 import search from "/assets/search.png";
 import ship from "/assets/ship.png";
+import api from "/assets/api.png";
+import fast from "/assets/fast.png";
+import auth from "/assets/auth.png";
+import add from "/assets/add.png";
+import safa from "/assets/safa.png";
 const Homepage = () => {
   return (
     <>
@@ -60,7 +65,7 @@ const Homepage = () => {
                 Backend Development
               </h3>
               <p className="text-gray-600">
-                Node.js, Express, Python, Django, Flask
+                Python, Django, Node.js, Express, FastAPI, PostgreSQL
               </p>
             </div>
             <div className="text-center p-4 bg-white shadow-md rounded-lg">
@@ -115,13 +120,7 @@ const Homepage = () => {
 
             {/* Project 2 */}
             <div className="bg-gray-100 shadow-md rounded-lg overflow-hidden">
-              <CarouselPlugin
-                images={[
-                  "src/assets/api.png",
-                  "src/assets/fast.png",
-                  "src/assets/auth.png",
-                ]}
-              />
+              <CarouselPlugin images={[`${api}`, `${fast}`, `${auth}`]} />
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-4">Social Media API</h3>
                 <p className="text-gray-600 mb-4">
@@ -136,9 +135,7 @@ const Homepage = () => {
 
             {/* Project 3 */}
             <div className="bg-gray-100 shadow-md rounded-lg overflow-hidden">
-              <CarouselPlugin
-                images={["src/assets/add.png", "src/assets/safa.png"]}
-              />
+              <CarouselPlugin images={[`${add}`, `${safa}`]} />
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-4">Hotel Booking App</h3>
                 <p className="text-gray-600 mb-4">

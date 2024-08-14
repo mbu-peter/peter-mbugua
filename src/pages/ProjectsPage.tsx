@@ -1,19 +1,23 @@
 import React from "react";
-
+import add from "/assets/add.png";
+import safa from "/assets/safa.png";
+import cart1 from "/assets/cart1.png";
+import home from "/assets/home.png";
+import fast from "/assets/fast.png";
 const projects = [
   {
     id: 1,
     title: "Ecommerce Website",
     description: `
       <p>This is a full-featured ecommerce website built with React, Node.js, and MongoDB. It includes user authentication, product management, and a shopping cart.</p>
-      <img src="src/assets/home.png" alt="Ecommerce Website Screenshot" class="my-4 rounded-lg shadow-lg"/>
+      <img src=${home} alt="Ecommerce Website Screenshot" class="my-4 rounded-lg shadow-lg"/>
       <h2>Features:</h2>
       <ul>
         <li>User Authentication</li>
         <li>Product Management</li>
         <li>Shopping Cart Integration</li>
       </ul>
-      <img src="src/assets/cart1.png" alt="Feature Screenshot" class="my-4 rounded-lg shadow-lg"/>
+      <img src=${cart1} alt="Feature Screenshot" class="my-4 rounded-lg shadow-lg"/>
       <p>Built with the following technologies:</p>
       <ul>
         <li>Python</li>
@@ -28,7 +32,7 @@ const projects = [
     title: "Social Media API",
     description: `
       <p>This API allows interaction with a social media platform, including user profiles, posts, and comments.</p>
-      <img src="src/assets/fast.png" alt="Social Media API Screenshot" class="my-4 rounded-lg shadow-lg"/>
+      <img src=${fast} alt="Social Media API Screenshot" class="my-4 rounded-lg shadow-lg"/>
       <p>Features:</p>
       <ul>
         <li>Profile Management</li>
@@ -43,14 +47,14 @@ const projects = [
     title: "Booking App",
     description: `
       <p>A hotel booking application allowing users to create accounts and list properties for booking.</p>
-      <img src="src/assets/safa.png" alt="Blog App Screenshot" class="my-4 rounded-lg shadow-lg"/>
+      <img src=${safa} alt="Blog App Screenshot" class="my-4 rounded-lg shadow-lg"/>
       <p>Features:</p>
       <ul>
         <li>User registration and authentication</li>
         <li>Hotel listings</li>
         <li>Responsive Design</li>
       </ul>
-      <img src="src/assets/add.png" alt="Feature Screenshot" class="my-4 rounded-lg shadow-lg"/>
+      <img src=${add} alt="Feature Screenshot" class="my-4 rounded-lg shadow-lg"/>
     `,
     demoLink: "https://vacation-app.onrender.com",
   },
