@@ -1,6 +1,9 @@
 import ContactForm from "@/components/ContactForm";
 import { CarouselPlugin } from "@/components/MainNav";
-
+import cart1 from "/assets/cart1.png";
+import home from "/assets/home.png";
+import search from "/assets/search.png";
+import ship from "/assets/ship.png";
 const Homepage = () => {
   return (
     <>
@@ -96,12 +99,7 @@ const Homepage = () => {
             {/* Project 1 */}
             <div className="bg-gray-100 shadow-md rounded-lg overflow-hidden">
               <CarouselPlugin
-                images={[
-                  "src/assets/cart1.png",
-                  "src/assets/home.png",
-                  "src/assets/search.png",
-                  "src/assets/ship.png",
-                ]}
+                images={[`${cart1}`, `${home}`, `${search}`, `${ship}`]}
               />
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-4">eCommerce Website</h3>

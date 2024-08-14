@@ -1,5 +1,5 @@
 import React from "react";
-//import profilePic from "src/assets/pm.png";
+import profilePic from "/assets/pm.png";
 const AboutMePage: React.FC = () => {
   return (
     <div className="container mx-auto px-6 md:px-12 py-20">
@@ -19,7 +19,7 @@ const AboutMePage: React.FC = () => {
           <div className="bg-gray-100 rounded-lg shadow-lg p-6 md:p-12 mb-12">
             <div className="flex items-center mb-8">
               <img
-                src={"src/assets/pm.png"}
+                src={profilePic}
                 alt="Profile Picture"
                 className="w-32 h-32 rounded-full shadow-lg mr-6"
               />
