@@ -26,7 +26,7 @@ const Footer = () => {
               GitHub
             </a>
             <a
-              href="https://twitter.com/mbugua_is_me"
+              href="https://twitter.com/mbugua_Khara"
               target="_blank"
               rel="noopener noreferrer"
               className="text-yellow-300 hover:text-yellow-400"
