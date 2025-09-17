@@ -70,7 +70,7 @@ const ContactForm = () => {
       <div className="relative container mx-auto px-6 md:px-12 text-center">
         <h2 className="text-4xl font-bold mb-12">Get In Touch</h2>
         <p className="text-lg mb-8">
-          Interested in working together? Let's connect!
+          ₊ ⊹ . ݁˖ . ݁💌✉. ݁₊ ⊹ . ݁˖ . ݁
         </p>
         <form
           onSubmit={handleSubmit}

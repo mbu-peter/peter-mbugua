@@ -25,23 +25,25 @@ const Homepage = () => {
         </div>
         <div className="relative text-center px-6 md:px-12">
           <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
-            Hi, I'm <span className="text-yellow-300">Peter Mbugua</span>
+            Hi, I'm <span className="text-yellow-300">Peter Mbugua,</span>
           </h1>
           <p className="text-lg md:text-2xl mb-8">
-            A Passionate{" "}
+            A {" "}
             <span className="font-semibold text-yellow-300">
-              Software Developer
+              Software Engineer
             </span>{" "}
-            specializing in building amazing web experiences.
+            building amazing Software solutions.
           </p>
           <a
             href="/about"
             className="bg-yellow-300 text-gray-900 font-bold py-3 px-6 rounded-full shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1"
           >
-            Learn More About Me
+            Learn More
           </a>
         </div>
+        
       </section>
+      
 
       {/* Skills Section */}
       <section
@@ -57,7 +59,7 @@ const Homepage = () => {
         </div>
         <div className="relative container mx-auto px-6 md:px-12">
           <h2 className="text-4xl font-bold text-center mb-12 text-white">
-            My Skills
+            Skills  🛠️
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center p-4 bg-white shadow-md rounded-lg">
@@ -65,7 +67,7 @@ const Homepage = () => {
                 Backend Development
               </h3>
               <p className="text-gray-600">
-                Python, Django, Node.js, Express, FastAPI, PostgreSQL
+                Java, Spring Boot, Python, FastAPI, PostgreSQL, MysQL,
               </p>
             </div>
             <div className="text-center p-4 bg-white shadow-md rounded-lg">
@@ -78,7 +80,7 @@ const Homepage = () => {
             </div>
             <div className="text-center p-4 bg-white shadow-md rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">Other Skills</h3>
-              <p className="text-gray-600">Git, Agile Methodologies</p>
+              <p className="text-gray-600">Git, Microservices, Containerization/Docker, Kafka, RabitMQ</p>
             </div>
           </div>
         </div>
@@ -98,7 +100,7 @@ const Homepage = () => {
         </div>
         <div className="relative container mx-auto px-6 md:px-12">
           <h2 className="text-4xl font-bold text-center mb-12 text-white">
-            My Projects
+            Projects Catalogue
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project 1 */}
